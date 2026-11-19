@@ -1,0 +1,12 @@
+-- DDL SQL STATEMENT
+
+-- DDL COMMAND TO SHOW DATABASE 
+SHOW DATABASES;
+-- DDL COMMAND TO GET INTO DATABASE
+ USE cdg_jfs_hyd_059;
+-- DDL COMMAND TO CREATE A TABLE
+CREATE TABLE customers (
+    customer_id INT,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50)
+);
